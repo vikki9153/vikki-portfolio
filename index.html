@@ -1,9 +1,10 @@
- <!DOCTYPE html><html lang="en">
+ <!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vikki Kumar | Portfolio</title>
-  <link href="https://vikki.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --primary: #6366f1;
@@ -22,21 +23,89 @@
       background: var(--bg);
       color: var(--text);
     }
+
+    /* Header */
     header {
       background: var(--primary);
       color: white;
-      padding: 5rem 2rem 3rem;
-      text-align: center;
-      border-radius: 0 0 50% 50% / 10%;
+      padding: 2rem;
+      border-radius: 0 0 60% 60% / 10%;
     }
-    header h1 {
-      font-size: 3rem;
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .navbar h2 {
+      font-size: 1.8rem;
       font-weight: 700;
     }
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
+    .navbar nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
     }
+    .navbar nav a:hover {
+      color: #e2e8f0;
+    }
+
+    .header-main {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    .header-left {
+      max-width: 500px;
+    }
+    .typing {
+      display: inline-block;
+      border-right: 2px solid white;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: blinkCursor 0.7s infinite;
+    }
+    @keyframes blinkCursor {
+      0%, 100% { border-color: white; }
+      50% { border-color: transparent; }
+    }
+    .header-left h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    .role {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: #e0e7ff;
+    }
+    .header-left .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 20px;
+      background-color: white;
+      color: var(--primary);
+      border-radius: 5px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .header-left .btn:hover {
+      background-color: #c7d2fe;
+    }
+    .header-right img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: 2px 2px 4px 3px;color: #0f172a;
+    }
+
     main {
       max-width: 1000px;
       margin: auto;
@@ -58,6 +127,7 @@
     }
     .card {
       background: var(--card);
+      background-color: rgb(230, 224, 224);
       padding: 2rem;
       border-radius: 20px;
       box-shadow: 0 6px 20px rgba(0,0,0,0.05);
@@ -75,40 +145,51 @@
       color: var(--muted);
       font-size: 0.95rem;
     }
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+
     footer {
       text-align: center;
+      color: #6366f1;
       padding: 2rem;
-      color: var(--muted);
       font-size: 0.9rem;
-    }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2.2rem;
-      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Vikki Kumar</h1>
-    <p>Frontend Developer</p>
+    <div class="navbar">
+      <h2>Vikki Kumar</h2>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="header-main">
+      <div class="header-left">
+        <h1><span class="typing"></span></h1>
+        <p class="role">Frontend Developer</p>
+        <a href="#" class="btn">Download Resume</a>
+        
+      </div>
+      <div class="header-right">
+        <img src="myportfolio/pic.png.jpg" alt="Profile Picture">
+        
+      </div>
+    </div>
   </header>
+
   <main>
-    <section> 
-      .. 
+    <section id="about">
       <h2>About Me</h2>
-      <p>I’m Vikki Kumar, a frontend developer who blends modern design with practical development. I enjoy building interactive user interfaces and delivering beautiful digital experiences that actually work.</p>
+      <p>I’m Vikki Kumar, a passionate Frontend Developer with a strong foundation in HTML, CSS, and JavaScript. I love turning ideas into interactive, responsive websites that offer clean and user-friendly experiences. Currently exploring React.js and modern UI frameworks like Tailwind CSS to build efficient and visually appealing web applications.</p>
     </section>
-    <section>
+    
+
+    <section id="skills">
       <h2>Skills</h2>
       <div class="grid">
+        <div class="card">C Programming</div>
         <div class="card">HTML</div>
         <div class="card">CSS</div>
         <div class="card">JavaScript</div>
@@ -117,7 +198,8 @@
         <div class="card">Git & GitHub</div>
       </div>
     </section>
-    <section>
+
+    <section id="projects">
       <h2>Projects</h2>
       <div class="grid">
         <div class="card">
@@ -130,15 +212,45 @@
         </div>
       </div>
     </section>
-    <section>
+
+    <section id="contact">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:vk9993537@gmail.com">vk9993537@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/vikki" target="_blank">github.com/vikki</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/vikki" target="_blank">linkedin.com/in/vikki</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/vikki-kumar-208591346" target="_blank">linkedin.com/in/vikki-kumar</a></p>
     </section>
   </main>
+
   <footer>
     <p>© 2025 Vikki Kumar | Built with passion ✨</p>
   </footer>
+
+  <script>
+    const text = "Hi, I am Vikki Kumar.";
+    const typingElement = document.querySelector(".typing");
+    let index = 0;
+    let isDeleting = false;
+
+    function type() {
+      if (!isDeleting) {
+        typingElement.textContent = text.substring(0, index + 1);
+        index++;
+        if (index === text.length) {
+          isDeleting = true;
+          setTimeout(type, 1500);
+          return;
+        }
+      } else {
+        typingElement.textContent = text.substring(0, index - 1);
+        index--;
+        if (index === 0) {
+          isDeleting = false;
+        }
+      }
+      setTimeout(type, isDeleting ? 60 : 100);
+    }
+
+    type();
+  </script>
+
 </body>
 </html>
