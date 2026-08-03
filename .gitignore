@@ -1,0 +1,31 @@
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Logs and env
+*.log
+.env
+
+# VSCode
+.vscode/
+
+# SQLite
+*.sqlite3
+
+# Local backup folder
+.git_backup/

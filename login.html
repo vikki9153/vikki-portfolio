@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #353434;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+         .container {
+            display: flex;
+            background: rgba(27, 26, 26, 0.7);
+            border-radius: 12px;
+            overflow: hidden;
+            width: 900px;
+            box-shadow: Opx 4px 20px rgba(0,0,0,0.8);
+        }
+        .profile {
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+            border-right: 1px solid #333;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .profile h2 {
+            margin: 20px 0 5px;
+        }
+
+        .profile p {
+            margin: 5px 0 15px;
+            color: #aaa;
+            font-size: 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 20px;
+            margin-right: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons a:hover {
+           transform: scale(1.2);
+        }
+
+
+        .download-btn{
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 25px;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .download-btn:hover {
+            background: white;
+            color: black;
+        }
+        .login{
+            flex: 1;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .login h2 {
+            
+            margin: 20px 0 5px;
+        }
+
+        .login input {
+            width: 80%;
+            margin: 10px auto;
+            padding: 12px;
+            border: none;
+            border-bottom: 2px solid #555;
+            background: transparent;
+            color: white;
+            outline: none;
+        }
+
+        .login button {
+            width: 80%;
+            padding: 12px;
+            margin: 20px auto;
+            background:rgb(103, 117, 89);
+            border:none;
+            border-radius:25px;
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .login button:hover {
+            background:#0080ff;
+        }
+        .login p{
+            margin: 5px 0 15px;
+            color: #aaa;
+            font-size: 10px;
+        }
+
+        .footer {
+            margin-top: 60px;
+            font-size: 12px;
+            color: #666;
+            
+            margin-bottom: 0%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+     
+        <div class="profile">
+            <img src="myportfolio/pic.png.jpg"alt="Profile">
+            <h2>vikki kumar</h2>
+            <p>Web Developer</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <a href="#"class="download-btn">Download CV</a>
+            <div class="footer">© 2025 All rights reserved .</div>
+        </div>
+        <!-- Login Section -->
+        <div class="login">
+            <h2>Login</h2>
+            <input type="text" id="username"placeholder="Username">
+            <input type="password"id="password"placeholder="Password">
+            <button onclick="login()">Sign In</button>
+            <h2>vikki kumar</h2>
+            <p>Web Developer</p>
+        </div>
+    </div>
+</body>
+</html>
