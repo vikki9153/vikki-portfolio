@@ -164,7 +164,70 @@
       color: rgb(88, 87, 87);
       font-size: 0.95rem;
     }
+    
 
+    /* ===== Academic Journey ===== */
+
+#academic{
+    margin:70px 0;
+}
+
+.education-wrapper{
+    border-left:4px solid royalblue;
+    margin-left:25px;
+    padding-left:35px;
+}
+
+.edu-box{
+    position:relative;
+    margin-bottom:40px;
+    padding:20px 25px;
+    background:#fff;
+    border-radius:12px;
+    border:1px solid #ddd;
+    transition:.3s;
+}
+
+.edu-box::before{
+    content:"";
+    position:absolute;
+    width:18px;
+    height:18px;
+    background:royalblue;
+    border-radius:50%;
+    left:-46px;
+    top:28px;
+}
+
+.edu-box:hover{
+    transform:translateX(10px);
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.edu-year{
+    display:inline-block;
+    background:royalblue;
+    color:#fff;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:14px;
+    margin-bottom:12px;
+}
+
+.edu-content h3{
+    margin-bottom:8px;
+    color:#222;
+}
+
+.edu-content p{
+    color:#555;
+    margin-bottom:6px;
+}
+
+.edu-content span{
+    color:#666;
+    font-size:14px;
+}
 
 
     .contact-container {
@@ -334,51 +397,87 @@ I'm always excited to collaborate on meaningful projects, learn from experienced
       <h2>Skills</h2>
       <div class="grid">
         <div class="card">
-          <img src="c.png" alt="C Programming">
+           
           <p>C Programming</p>
         </div>
          <div class="card">
-          <img src="images_python.jpg" alt="python">
+           
           <p>python</p>
         </div>
          <div class="card">
-          <img src="images_java.jpg" alt="java">
+          
           <p>java</p>
         </div>
         <div class="card">
-          <img src="html.jpg" alt="HTML">
+          
           <p>HTML</p>
         </div>
         <div class="card">
-          <img src="css.jpg" alt="CSS">
+           
           <p>CSS</p>
         </div>
         <div class="card">
-          <img src="js.jpg" alt="JavaScript">
+           
           <p>JavaScript</p>
         </div>
         <div class="card">
-          <img src="" alt="SQL">
+           
           <p>SQL</p>
         </div>
          <div class="card">
-          <img src="data_structure_algorithum.jpg" alt="DSA">
+           
           <p>DSA with java</p>
         </div>
         <div class="card">
-          <img src="React-icon.svg.png" alt="React.js">
+           
           <p>React.js</p>
         </div>
         <div class="card">
-          <img src="tailwind.png" alt="Tailwind CSS">
+           
           <p>Tailwind CSS</p>
         </div>
         <div class="card">
-          <img src="git%20%26%20github.png" alt="Git & GitHub">
+          
           <p>Git & GitHub</p>
         </div>
       </div>
     </section>
+
+    <!-- ===== Academic Journey ===== -->
+<section id="academic">
+    <h2>Academic Journey</h2>
+
+    <div class="education-wrapper">
+
+        <div class="edu-box">
+            <div class="edu-year">2024 - 2028</div>
+            <div class="edu-content">
+                <h3>B.Tech in Computer Science & Engineering</h3>
+                <p>Gopal Narayan Singh University</p>
+                <span>CGPA : 8.3 (Pursuing)</span>
+            </div>
+        </div>
+
+        <div class="edu-box">
+            <div class="edu-year">2023</div>
+            <div class="edu-content">
+                <h3>Higher Secondary (12th)</h3>
+                <p>L.P.Y Enter college</p>
+                <span>Bihar Board • 72%</span>
+            </div>
+        </div>
+
+        <div class="edu-box">
+            <div class="edu-year">2021</div>
+            <div class="edu-content">
+                <h3>Secondary (10th)</h3>
+                <p>C.J.H.S Bhim karup</p>
+                <span>Bihar Board • 70.2%</span>
+            </div>
+        </div>
+
+    </div>
+</section>
 
     <section id="projects">
       <h2>Projects</h2>
