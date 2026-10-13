@@ -1,0 +1,119 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R /Annots [7 0 R 8 0 R 9 0 R 10 0 R 11 0 R] >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 6931 >>
+stream
+0.100 0.200 0.340 rg 0 728 595 114 re f
+0.180 0.390 0.610 rg 0 728 8 114 re f
+1.000 1.000 1.000 rg BT /F2 23.00 Tf 1 0 0 1 42.00 799.00 Tm (VIKKI KUMAR) Tj ET
+0.860 0.910 0.960 rg BT /F2 10.20 Tf 1 0 0 1 42.00 778.00 Tm (B.Tech Computer Science Student  |  Java  |  Full-Stack Development) Tj ET
+1.000 1.000 1.000 rg BT /F1 9.00 Tf 1 0 0 1 42.00 758.00 Tm (Sasaram, Bihar  |  +91 9153076577  |  vk9993537@gmail.com) Tj ET
+0.860 0.910 0.960 rg BT /F1 8.20 Tf 1 0 0 1 42.00 741.00 Tm (LinkedIn: linkedin.com/in/vikki-kumar-208591346) Tj ET
+0.860 0.910 0.960 RG 42 740.00 m 230.84599999999998 740.00 l 0.45 w S
+0.860 0.910 0.960 rg BT /F1 8.20 Tf 1 0 0 1 315.00 741.00 Tm (GitHub: github.com/vikki9153) Tj ET
+0.860 0.910 0.960 RG 315 740.00 m 427.50399999999996 740.00 l 0.45 w S
+0.180 0.390 0.610 rg BT /F2 10.20 Tf 1 0 0 1 42.00 697.94 Tm (PROFESSIONAL SUMMARY) Tj ET
+0.880 0.930 0.970 RG 42 694.94 m 553 694.94 l 0.8 w S
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 677.92 Tm (Computer Science B.Tech student with hands-on experience building full-stack applications and a solid) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 665.20 Tm (foundation in Java, C++, data structures, and algorithms. Projects include an HR management system, a) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 652.48 Tm (responsive portfolio, and a Java library management application. Solved 200+ DSA problems using Java and) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 639.76 Tm (seeking an entry-level software development opportunity to apply these skills, learn from a team, and) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 627.04 Tm (contribute to useful software.) Tj ET
+0.180 0.390 0.610 rg BT /F2 10.20 Tf 1 0 0 1 42.00 612.79 Tm (PROJECTS) Tj ET
+0.880 0.930 0.970 RG 42 609.79 m 553 609.79 l 0.8 w S
+0.130 0.160 0.200 rg BT /F2 9.70 Tf 1 0 0 1 42.00 591.87 Tm (Human Resource Management System \(HRMS\)) Tj ET
+0.320 0.380 0.450 rg BT /F1 8.70 Tf 1 0 0 1 42.00 579.74 Tm (Node.js | Express.js | MongoDB | HTML | CSS | JavaScript | Bootstrap) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 567.22 Tm (-  Developed a full-stack HRMS with an admin dashboard and modules for employee management, attendance,) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 554.50 Tm (   leave, and payroll.) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 541.78 Tm (-  Connected the application to MongoDB through REST APIs to support employee and HR records.) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 529.06 Tm (-  Implemented authentication, an email service, and PDF generation as part of the HR workflow.) Tj ET
+0.180 0.390 0.610 rg BT /F1 8.60 Tf 1 0 0 1 42.00 516.85 Tm (GitHub: github.com/vikki9153/HRMS_PROJECT) Tj ET
+0.180 0.390 0.610 RG 42 515.85 m 214.77399999999997 515.85 l 0.45 w S
+0.130 0.160 0.200 rg BT /F2 9.70 Tf 1 0 0 1 42.00 502.93 Tm (Personal Portfolio Website) Tj ET
+0.320 0.380 0.450 rg BT /F1 8.70 Tf 1 0 0 1 42.00 490.80 Tm (Full-Stack Web Development) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 478.28 Tm (-  Built a responsive portfolio to present skills, projects, and experience in a clear, accessible format.) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 465.56 Tm (-  Created an interactive user interface and connected the backend to support dynamic content management.) Tj ET
+0.180 0.390 0.610 rg BT /F1 8.60 Tf 1 0 0 1 42.00 453.35 Tm (Live demo: vikki-portfolio-6izh.vercel.app) Tj ET
+0.180 0.390 0.610 RG 42 452.35 m 218.988 452.35 l 0.45 w S
+0.180 0.390 0.610 rg BT /F1 8.60 Tf 1 0 0 1 42.00 440.84 Tm (GitHub: github.com/vikki9153/vikki-portfolio) Tj ET
+0.180 0.390 0.610 RG 42 439.84 m 227.416 439.84 l 0.45 w S
+0.130 0.160 0.200 rg BT /F2 9.70 Tf 1 0 0 1 42.00 426.92 Tm (Library Management System) Tj ET
+0.320 0.380 0.450 rg BT /F1 8.70 Tf 1 0 0 1 42.00 414.79 Tm (Java | Object-Oriented Programming | File Handling) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 402.27 Tm (-  Developed a Java application for managing books and student records, with workflows for issuing and) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 389.55 Tm (   returning books.) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 376.83 Tm (-  Added record management and file-based data persistence using object-oriented programming concepts.) Tj ET
+0.180 0.390 0.610 rg BT /F2 10.20 Tf 1 0 0 1 42.00 362.57 Tm (EDUCATION) Tj ET
+0.880 0.930 0.970 RG 42 359.57 m 553 359.57 l 0.8 w S
+0.130 0.160 0.200 rg BT /F2 9.40 Tf 1 0 0 1 42.00 342.04 Tm (Bachelor of Technology in Computer Science) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 329.52 Tm (Gopal Narayan Singh University, Jamuhar | Aug 2024 - May 2028 \(Expected\)) Tj ET
+0.180 0.390 0.610 rg BT /F2 10.20 Tf 1 0 0 1 42.00 315.26 Tm (CERTIFICATIONS & ASSESSMENTS) Tj ET
+0.880 0.930 0.970 RG 42 312.26 m 553 312.26 l 0.8 w S
+0.130 0.160 0.200 rg BT /F2 9.50 Tf 1 0 0 1 42.00 294.60 Tm (TCS iON NQT - IT Scorecard | Aug 2026) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 282.08 Tm (Overall: 58.04% | Advanced Quantitative & Reasoning: 79.00% | Programming Hands-On \(Java\): 55.87% | Issued:) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 269.36 Tm (11 Sep 2026) Tj ET
+0.180 0.390 0.610 rg BT /F2 10.20 Tf 1 0 0 1 42.00 255.11 Tm (TECHNICAL SKILLS) Tj ET
+0.880 0.930 0.970 RG 42 252.11 m 553 252.11 l 0.8 w S
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 235.09 Tm (Programming Languages: Java, C++, JavaScript, SQL) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 222.37 Tm (Web Development: HTML, CSS, Bootstrap, Node.js, Express.js, REST APIs) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 209.65 Tm (Databases: MongoDB, MySQL) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 196.93 Tm (Developer Tools: Git, GitHub, Postman, Vercel, Render) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 184.21 Tm (Computer Science: Data Structures and Algorithms, Object-Oriented Programming, File Handling) Tj ET
+0.180 0.390 0.610 rg BT /F2 10.20 Tf 1 0 0 1 42.00 169.95 Tm (ACHIEVEMENTS & ACTIVITIES) Tj ET
+0.880 0.930 0.970 RG 42 166.95 m 553 166.95 l 0.8 w S
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 149.93 Tm (-  Solved 200+ Data Structures and Algorithms problems using Java on coding platforms; practiced arrays,) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 137.21 Tm (   strings, recursion, linked lists, trees, and algorithms.) Tj ET
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 124.49 Tm (-  Participated in technical events and hackathons in 2026.) Tj ET
+0.180 0.390 0.610 rg BT /F2 10.20 Tf 1 0 0 1 42.00 110.24 Tm (STRENGTHS) Tj ET
+0.880 0.930 0.970 RG 42 107.24 m 553 107.24 l 0.8 w S
+0.130 0.160 0.200 rg BT /F1 9.00 Tf 1 0 0 1 42.00 90.22 Tm (Problem Solving | Team Collaboration | Communication | Leadership | Adaptability | Continuous Learning) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 738.0 230.8 751.2] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/vikki-kumar-208591346) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [315.0 738.0 427.5 751.2] /Border [0 0 0] /A << /S /URI /URI (https://github.com/vikki9153) >> >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 513.8 214.8 527.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/vikki9153/HRMS_PROJECT) >> >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 450.3 219.0 463.9] /Border [0 0 0] /A << /S /URI /URI (https://vikki-portfolio-6izh.vercel.app) >> >>
+endobj
+11 0 obj
+<< /Type /Annot /Subtype /Link /Rect [42.0 437.8 227.4 451.4] /Border [0 0 0] /A << /S /URI /URI (https://github.com/vikki9153/vikki-portfolio) >> >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000299 00000 n 
+0000000369 00000 n 
+0000000444 00000 n 
+0000007427 00000 n 
+0000007597 00000 n 
+0000007747 00000 n 
+0000007909 00000 n 
+0000008070 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+8236
+%%EOF
