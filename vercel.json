@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "outputDirectory": "myportfolio",
+  "outputDirectory": ".",
   "framework": null,
   "installCommand": "npm install"
 }
