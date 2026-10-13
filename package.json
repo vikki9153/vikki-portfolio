@@ -1,0 +1,20 @@
+{
+  "name": "vikki-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Vikki Kumar",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve myportfolio",
+    "build": "echo 'Static site - no build step required'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "portfolio",
+    "web-development"
+  ],
+  "author": "Vikki Kumar",
+  "license": "ISC"
+}
